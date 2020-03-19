@@ -1,0 +1,4356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/hei1_long2_jiang1_ha1_er3_bin1.js"></script>
+        <style>
+                .pic{
+                    position:absolute;
+                    width: 880px;
+                    left: 186px;
+                    top: 73px;
+                    z-index: 2;
+                }
+                .map{
+                    position: absolute;
+                    z-index: 1;
+                }
+            </style>
+</head>
+<body>
+    <img src="/Users/maxuan/Desktop/1.png" class="pic">
+    <div id="6c72c9c1a3034133966ef43d0bf46d50" class="chart-container" style="width:1350px; height:750px;" class="map"></div>
+    <script>
+        var chart_6c72c9c1a3034133966ef43d0bf46d50 = echarts.init(
+            document.getElementById('6c72c9c1a3034133966ef43d0bf46d50'), 'white', {renderer: 'canvas'});
+        var option_6c72c9c1a3034133966ef43d0bf46d50 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "\u54c8\u5c14\u6ee8",
+                "data": [
+                    {
+                        "name": "\u963f\u57ce\u533a",
+                        "value": 5
+                    },
+                    {
+                        "name": "\u5df4\u5f66\u53bf",
+                        "value": 8
+                    },
+                    {
+                        "name": "\u9053\u91cc\u533a",
+                        "value": 29
+                    },
+                    {
+                        "name": "\u65b9\u6b63\u53bf",
+                        "value": 8
+                    },
+                    {
+                        "name": "\u6728\u5170\u53bf",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u5357\u5c97\u533a",
+                        "value": 35
+                    },
+                    {
+                        "name": "\u5c1a\u5fd7\u5e02",
+                        "value": 21
+                    },
+                    {
+                        "name": "\u53cc\u57ce\u533a",
+                        "value": 2
+                    },
+                    {
+                        "name": "\u677e\u5317\u533a",
+                        "value": 2
+                    },
+                    {
+                        "name": "\u4e94\u5e38\u5e02",
+                        "value": 23
+                    },
+                    {
+                        "name": "\u9999\u574a\u533a",
+                        "value": 35
+                    },
+                    {
+                        "name": "\u9053\u5916\u533a",
+                        "value": 19
+                    }
+                ],
+                "roam": true,
+                "zoom": 1,
+                "showLegendSymbol": true,
+                "emphasis": {},
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "bottom": "-5px",
+            "data": [
+                "1\u670822\u65e5",
+                "1\u670823\u65e5",
+                "1\u670824\u65e5",
+                "1\u670825\u65e5",
+                "1\u670826\u65e5",
+                "1\u670827\u65e5",
+                "1\u670828\u65e5",
+                "1\u670829\u65e5",
+                "1\u670830\u65e5",
+                "1\u670831\u65e5",
+                "2\u67081\u65e5",
+                "2\u67082\u65e5",
+                "2\u67083\u65e5",
+                "2\u67084\u65e5",
+                "2\u67085\u65e5",
+                "2\u67086\u65e5",
+                "2\u67087\u65e5",
+                "2\u67088\u65e5",
+                "2\u67089\u65e5",
+                "2\u670810\u65e5",
+                "2\u670811\u65e5",
+                "2\u670812\u65e5",
+                "2\u670813\u65e5",
+                "2\u670814\u65e5",
+                "2\u670815\u65e5",
+                "2\u670816\u65e5",
+                "2\u670817\u65e5"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 0,
+            "max": 30,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670822\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670823\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670824\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670825\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670826\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670827\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670828\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670829\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 0
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670830\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 1
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1\u670831\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 1
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67081\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 10
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 11
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 1
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67082\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 2
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67083\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 3
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 5
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67084\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 0
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 7
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67085\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 10
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67086\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 10
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67087\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 9
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 11
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67088\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 24
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 13
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u67089\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 13
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 16
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 27
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 14
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670810\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 28
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 14
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670811\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 6
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 18
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 17
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 15
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670812\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 32
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 15
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670813\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 30
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 19
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 16
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670814\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 33
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 20
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 18
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670815\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 19
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670816\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe"
+                    ],
+                    "selected": {
+                        "\u54c8\u5c14\u6ee8\u5730\u56fe": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u54c8\u5c14\u6ee8\u5730\u56fe",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "\u54c8\u5c14\u6ee8",
+                    "data": [
+                        {
+                            "name": "\u963f\u57ce\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5df4\u5f66\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u9053\u91cc\u533a",
+                            "value": 29
+                        },
+                        {
+                            "name": "\u65b9\u6b63\u53bf",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u6728\u5170\u53bf",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u5c97\u533a",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u5c1a\u5fd7\u5e02",
+                            "value": 21
+                        },
+                        {
+                            "name": "\u53cc\u57ce\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u677e\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u4e94\u5e38\u5e02",
+                            "value": 23
+                        },
+                        {
+                            "name": "\u9999\u574a\u533a",
+                            "value": 35
+                        },
+                        {
+                            "name": "\u9053\u5916\u533a",
+                            "value": 19
+                        }
+                    ],
+                    "roam": true,
+                    "zoom": 1,
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2\u670817\u65e5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 30,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_6c72c9c1a3034133966ef43d0bf46d50.setOption(option_6c72c9c1a3034133966ef43d0bf46d50);
+    </script>
+</body>
+</html>
